@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Fact Radar</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fact Radar</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Fact Radar</h1>
-  <p>Fact Radar is a Ai detection extension which will </p>
-  <button id="scanPage">Scan This Page</button>
-  <div id="result"></div>
-  <script src="popup.js"></script>
+    <h1>Fact Radar</h1>
+    <p>Fact Radar is an AI-powered news detection extension.</p>
+    
+    <!-- Scan Page Button -->
+    <button id="scanPage">Scan This Page</button>
+
+    <!-- Manual Input for Checking News -->
+    <textarea id="newsInput" placeholder="Enter news headline here..."></textarea>
+    <button id="checkNews">Check News</button>
+
+    <!-- Result Display -->
+    <div id="result"></div>
+
+    <script src="popup.js"></script>
 </body>
 </html>
